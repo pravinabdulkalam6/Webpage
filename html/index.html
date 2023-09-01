@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmi</title>
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+         }
+        body {
+            height: 100vh;
+            background-color: black;
+        }
+
+        .header {
+            display: flex;
+            height: 50px;
+            background-color: white;
+            justify-content: space-between;
+        }
+        .container {
+            height: 100%;
+            /*background-color: red;*/
+            width: 50%;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding-left: 20px;
+        }
+
+        .nav-bar {
+            width:80% ;
+
+        }
+        .icons {
+           /* background-color: aqua;*/
+            width: 50%;
+        }
+
+        .logo img{
+            /* height: 100%; */
+            display: block;
+            width: auto;
+        }
+        .nav-bar ul{
+            display: flex;
+            gap: 15px;
+    
+        }
+        .nav-bar ul li {
+            list-style: none;
+            /* justify-content: space-between; */
+        }
+        .nav-bar ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" height="40px" alt="logo">
+            </div>
+            <div class="nav-bar">
+               <!--<ul>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">Tv and smarthome</a></li>
+                <li><a href="#">Laptop and tablet</a></li>
+                <li><a href="#">Lifestyle</a></li>
+               </ul>-->
+            </div>
+        </div>
+        <div class="icons"></div>
+    </div>
+
+</body>
+</html>
