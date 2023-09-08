@@ -1,0 +1,117 @@
+ * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+html,body {
+    font-family: "ff-meta-web-pro", sans-serif;
+    font-size: 100%;
+    line-height: 26px;
+    background: #f6efe5;
+  background-size: 60%;
+  color: #0d2c40;
+  margin: 0;
+}
+a {
+    color: #0d2c40;
+    text-decoration: none;
+    border-bottom: 1px solid #0d2c40;
+}
+ .intro {
+    overflow: hidden;
+} 
+
+
+.intro header {
+    position: relative;
+    background: #c879b2;
+    overflow: hidden;
+    width: 40%;
+    height: 50em;
+    float: left;
+}
+
+.intro header h1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 100%;
+    line-height: 2em;
+    top: 4.2em;
+    left: -3em;
+    width: auto;
+    margin: 0;
+    padding: 1em;
+    transform: rotate(-90deg);
+    }
+.intro header h2 {
+    position: relative;
+    background: #0d2c40 url(icon-star.svg) no-repeat left bottom;
+    background-size:101% ;
+    float: right;
+    color: #ffffff;
+    font-size: 250%;
+    line-height: 1.25em;
+    width: 50%;
+    height: 20.019em;
+    margin: 0 0 0 0;
+    padding: 6em 0.5em 0 0.5em;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+} 
+.summary {
+    font-size: 100%;
+    color: #ffffff;
+    width: 60%;
+    float: right;
+    background: #c879b2 url(icons-3-pack.svg) no-repeat;
+    background-position: center bottom;
+    background-size: 101%;
+    height: 50em;
+    margin: 0;
+   padding: 16.3em 2em 10em 2em;
+}
+.intro .summary p {
+    padding: 0 40% 2em 0 ;
+    margin: 0;
+}
+.intro .summary a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+/* .intro .summary a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  } */
+.intro .preamble {
+    float: left;
+    width: 60%;
+    position: relative;
+    margin: 0 0 0 20%;
+    padding: 8em 0.5em 32em 0;
+    box-sizing: border-box;
+}
+.intro .preamble h3 {
+margin-right: 35%;
+font-size: 150%;
+}
+.intro .preamble p {
+margin-right: 35%;
+}
+.intro .preamble p:last-child {
+    color: #ffffff;
+  background: rgba(0, 188, 217, 0.8);
+  width: 33.4%;
+  padding: 10em 1em 20em 1em;
+  position: absolute;
+  z-index: 2;
+  top: -0.012em;
+  right:0;  
+  margin-right: 0;
+}
