@@ -1,5 +1,4 @@
  * {
-    margin:0;
     padding: 0;
     box-sizing: border-box;
  }
@@ -100,9 +99,11 @@ a {
 .intro .preamble h3 {
 margin-right: 35%;
 font-size: 150%;
+margin: 24px 83.672px 24px 0px   ;
 }
 .intro .preamble p {
 margin-right: 35%;
+font-size: 103%;
 }
 .intro .preamble p:last-child {
     color: #ffffff;
@@ -114,4 +115,82 @@ margin-right: 35%;
   top: -0.012em;
   right:0;  
   margin-right: 0;
+  margin: 0;
+}
+.main {
+    background: url(mid-century-1.jpg) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    top: -25em;
+    margin-bottom: 1em;
+    padding: 20em 0;
+    position: relative; 
+}
+.main footer {
+    display: block;
+    position:absolute;
+    left: 1em;
+    bottom: 1em;
+    width: 20%;
+    padding: 0;
+}
+.main footer a {
+    margin: 0 0.25em;
+    display: block;
+    border-bottom: 0px;
+}
+.main .explanation {
+    background: #0d2c40 url(icon-half.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 40%;
+    position: relative;
+    color: #ffffff;
+   width: 40%;
+   margin: 0;
+   padding: 2em 5em;
+}
+.main .explanation h3 {
+    color: white;
+    position: absolute;
+    font-size: 150%;
+    line-height: 2em;
+    top: 7em;
+    left: -4.5em;
+    margin: 0;
+    padding: 1.5em;
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+}
+.main .explanation p {
+    width: 90%;
+    padding-left: 15%;
+}
+.main .participation {
+    background: #f6efe5;
+    position: absolute;
+    right: 40%;
+    z-index: 2;
+    margin-top: 14em;
+    width: 40%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.main .participation h3 {
+    font-size: 150%;
+  }
+  .main .benefits {
+    background: rgba(0, 188, 217, 0.8) url(icon-circles.svg) no-repeat left top;
+    background-size: 100%;
+    position: absolute;
+    right: 20%;
+    z-index: 2;
+   margin-top: 3em;
+   margin-left: 0;
+   width: 20%;
+   padding: 22em 1em 25em 1em;
+   box-sizing: border-box;
+}
+.main .benefits h3 {
+    font-size: 150%;
 }
